@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Chilean Rut",
+  "description": "This extension shows a valid chilean rut every time you click the extension's icon",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "/assets/images/id-card.png",
+    "default_popup": "popup.html",
+    "default_title": "Generate a valid Rut!"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
